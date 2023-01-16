@@ -62,3 +62,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Instruction for using this repo
+
+1. Extract Code zip and setup to your server.
+
+2. Create Database and configure that database to .env file.
+
+3. After that run 'php aritsan migrate' to migrate all the db tables to database.
+
+4. Then import postman collection and you'll get all the APIs with form fields. Also after importing the API change the hostname in API request in postman to test the    APIs.
